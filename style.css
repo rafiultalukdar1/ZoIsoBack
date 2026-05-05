@@ -355,6 +355,7 @@ input::-webkit-inner-spin-button {
 	top: 0;
 	z-index: 100;
 	background: #fff;
+    box-shadow: 0px 2px 4px rgba(100, 100, 111, 0.1);
 }
 .nav-wrapper {
     display: flex;
@@ -420,7 +421,7 @@ input::-webkit-inner-spin-button {
     width: 140%;
     height: 140%;
     border-radius: 50%;
-    background: var(--primaryColor);
+    background: #FF6C29;
     position: absolute;
     left: 50%;
     top: -24%;
@@ -2255,4 +2256,8 @@ input::-webkit-inner-spin-button {
 
 .second-contact-checkbox-items input:checked + img {
     border-color: #31B44A;
+}
+
+.navbar-wp a.active {
+    color: var(--primaryColor);
 }

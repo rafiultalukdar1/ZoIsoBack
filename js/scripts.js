@@ -29,27 +29,19 @@ $(document).ready(function() {
 
 
 	$(document).ready(function () {
-
-    $('.dropdown-toggle-btn').on('click', function (e) {
-        e.preventDefault();
-
-        let parentLi = $(this).closest('li');
-        let dropdown = parentLi.find('.dropdown-menu-wp-mb');
-
-        // Close others
-        $('.dropdown-menu-wp-mb').not(dropdown).slideUp();
-        $('.mobile-navbar-wp li').not(parentLi).removeClass('active');
-
-        // Toggle current
-        dropdown.slideToggle();
-        parentLi.toggleClass('active');
-    });
-
-});
+		$('.dropdown-toggle-btn').on('click', function (e) {
+			e.preventDefault();
+			let parentLi = $(this).closest('li');
+			let dropdown = parentLi.find('.dropdown-menu-wp-mb');
+			$('.dropdown-menu-wp-mb').not(dropdown).slideUp();
+			$('.mobile-navbar-wp li').not(parentLi).removeClass('active');
+			dropdown.slideToggle();
+			parentLi.toggleClass('active');
+		});
+	});
 
 
 	// stat slider 
-
 	var swiper = new Swiper(".stats-slider", {
 	spaceBetween: 20,
 
@@ -72,7 +64,6 @@ $(document).ready(function() {
 	
 
 	// faq function 
-
 	$('.faq-header').click(function(){
 
         if($(this).hasClass('active')){
@@ -88,5 +79,21 @@ $(document).ready(function() {
         }
 
     });
+
+	// Manu active
+	const links = document.querySelectorAll('.navbar-wp a');
+	const currentPath = window.location.pathname.split("/").pop();
+
+	links.forEach(link => {
+		const linkPath = link.getAttribute("href");
+
+		if (linkPath === currentPath) {
+			link.classList.add("active");
+			const parent = link.closest('.dropdown-parent');
+			if (parent) {
+				parent.querySelector('a').classList.add('active');
+			}
+		}
+	});
 		
 });
