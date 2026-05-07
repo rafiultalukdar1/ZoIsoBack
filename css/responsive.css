@@ -5,9 +5,6 @@ large Screen - Others
 */
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
-
-    /* nav area  */
-
     .navbar-wp ul {
         gap: 20px 30px;
     }
@@ -28,9 +25,6 @@ Medium Screen - Others
     .header-wrapper > img {
         max-width: 200px;
     }
-
-    /* nav area  */
-
     .navbar-wp ul {
         gap: 5px 30px;
     }
@@ -40,23 +34,15 @@ Medium Screen - Others
     .nav-wrapper {
         gap: 60px;
     }
-
-
-    /* hero area  */
-
     .hero-content-sa h2 {
         font-size: 50px;
     }
     .hero-content-sa {
         max-width: 580px;
     }
-
     .hero-wrapper {
         min-height: 750px;
     }
-
-    /* voor area  */
-
     .voor-title {
         gap: 40px;
     }
@@ -66,10 +52,6 @@ Medium Screen - Others
     .voor-title h4 {
         font-size: 40px;
     }
-    
-
-    /* service area  */
-
     .service-list-wp {
         grid-template-columns: repeat(4, 1fr);
         margin-top: 60px;
@@ -77,18 +59,10 @@ Medium Screen - Others
     .service-top-content h2 {
         font-size: 40px;
     }
-
-
-    /* consultation  */
-
     .consultation-area {
         padding-top: 100px;
         padding-bottom: 90px;
     }
-
-
-    /* page isolatie */
-
     .energy-overview-area {
         padding-block: 86px;
         padding-bottom: 50px;
@@ -96,25 +70,18 @@ Medium Screen - Others
     .energy-wrapper {
         gap: 60px;
     }
-
-    /* measure area  */
-
     .header-cell {
         font-size: 19px;
     }
-
     .beschikbaar-list {
         grid-template-columns: repeat(2, 1fr);
     }
-
     .landing-page-wrapper h2 {
         font-size: 70px;
     }
     .landing-block-two {
         gap: 40px;
     }
-
-    /* New Code Here */
     .new-contact-area form {
         padding: 55px 20px 0;
     }
@@ -135,9 +102,6 @@ Small Screen - Tablate
     .header-wrapper > img {
         max-width: 200px;
     }
-
-    /* nav area  */
-
     .navbar-wp ul {
         gap: 5px 30px;
     }
@@ -148,17 +112,12 @@ Small Screen - Tablate
         gap: 60px;
         position: relative;
     }
-
     .nav-wrapper .logo {
         margin-inline: auto;
     }
-
-    /* hero area  */
-
     .hero-area-sa {
         background-position: bottom;
     }
-
     .hero-content-sa h2 {
         font-size: 35px;
     }
@@ -166,13 +125,11 @@ Small Screen - Tablate
         max-width: 480px;
         padding: 40px 45px;
     }
-
     .hero-wrapper {
         min-height: 625px;
         justify-content: center;
         padding-bottom: 40px;
     }
-
     .hero-ractnalge-one {
         right: -15px;
         max-width: 35px;
@@ -180,29 +137,19 @@ Small Screen - Tablate
     .hero-btn-sa {
         font-size: 20px;
     }
-
-
-    /* content area  */
-
     .content-wrapper {
         display: flex;
         flex-direction: column;
         gap: 58px;
         padding-left: 100px;
     }
-
     .content-wrapper p {
         font-size: 18px;
     }
-
     .content-area-one {
         padding-top: 70px;
         padding-bottom: 50px;
     }
-
-
-    /* voor area  */
-
     .voor-title {
         gap: 40px;
     }
@@ -219,10 +166,6 @@ Small Screen - Tablate
     .voor-content p {
         font-size: 20px;
     }
-
-
-    /* service area  */
-
     .service-list-wp {
         grid-template-columns: repeat(3, 1fr);
         margin-top: 60px;
@@ -237,9 +180,6 @@ Small Screen - Tablate
     .service-wrapper-top {
         gap: 40px;
     }
-
-    /* consultation  */
-
     .consultation-area {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -248,11 +188,6 @@ Small Screen - Tablate
         right: 0;
         max-width: 30%;
     }
-
-
-
-    /* success story area  */
-
     .color-plate-img {
         max-width: 200px;
     }
@@ -260,9 +195,6 @@ Small Screen - Tablate
 	    font-size: 40px;
         line-height: 1.4;
     }
-
-    /* stat area  */
-
     .stats-area {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -278,22 +210,12 @@ Small Screen - Tablate
         height: 75px;
         padding: 8px;
     }
-
-
-    /* footer  */
-
     .copyright-wrapper p.ms-auto {
         margin-left: 0 !important;
     }
-
-
-    /* page 2  */
-
     .work-method-list {
         gap: 30px;
     }
-
-    /* provider area  */
     .provider-content {
         display: flex;
         flex-direction: column;
@@ -312,9 +234,6 @@ Small Screen - Tablate
         padding-top: 70px;
         padding-bottom: 70px;
     }
-
-    /* page isolatie */
-
     .energy-overview-area {
         padding-block: 86px;
         padding-bottom: 50px;
@@ -325,9 +244,6 @@ Small Screen - Tablate
     .energy-content p {
         font-size: 20px;
     }
-
-    /* measure area  */
-
     .header-cell {
         font-size: 14px;
         padding: 6px;
@@ -336,25 +252,18 @@ Small Screen - Tablate
         padding: 8px 10px;
         font-size: 14px;
     }
-
-
-     .beschikbaar-list {
+    .beschikbaar-list {
         grid-template-columns: repeat(2, 1fr);
         padding-top: 40px;
         gap: 12px 40px;
     }
-
-    /* content area  */
-
     .content-card p {
         font-size: 20px;
     }
-
     .content-main-area {
         padding-top: 100px;
         padding-bottom: 60px;
     }
-
     .page-navigation ul a {
         font-size: 20px;
         font-weight: 900;
@@ -377,7 +286,6 @@ Small Screen - Tablate
     .landing-block-two {
         gap: 40px;
     }
-
     .landing-page-wp {
         display: flex;
         flex-direction: column;
@@ -390,14 +298,12 @@ Small Screen - Tablate
         margin-left: auto;
         margin-top: 50px;
     }
-    /* faq page  */
     .faq-wrapper h4 {
         font-size: 36px;
     }
     .faq-content-card p {
         font-size: 20px;
     }
-
     .terms-privecy-wrapper p {
         font-size: 20px;
     }
@@ -408,8 +314,6 @@ Small Screen - Tablate
         font-size: 20px;
         flex: 1;
     }
-
-    /* New Code Here */
     .new-contact-area {
         padding: 40px 25px;
     }
@@ -467,22 +371,17 @@ Xtra Small Screen - Small Mobile
         position: relative;
         padding-block: 5px;
     }
-
     .nav-wrapper .logo {
         margin-inline: auto;
         max-width: 200px;
         padding: 20px;
     }
-
-     /* hero area  */
-
     .hero-area-sa {
         background: url(../images/hero-bg-mb1.jpg) no-repeat;
         background-size: cover;
         background-position-x: center;
         background-position-y: bottom;
     }
-
     .hero-content-sa h2 {
         font-size: 26px;
     }
@@ -490,13 +389,11 @@ Xtra Small Screen - Small Mobile
         max-width: 460px;
         padding: 25px 45px;
     }
-
     .hero-wrapper {
         min-height: 455px;
         justify-content: center;
         padding-bottom: 40px;
     }
-
     .hero-ractnalge-one {
         right: -12px;
         max-width: 26px;
@@ -508,30 +405,20 @@ Xtra Small Screen - Small Mobile
     .hero-btn-sa i {
         font-size: 12px;
     }
-
-
-    /* content area  */
-
     .content-wrapper {
         display: flex;
         flex-direction: column;
         gap: 51px;
         padding-left: 0;
     }
-
     .content-wrapper p {
         font-size: 16px;
         line-height: 1.7;
     }
-
     .content-area-one {
         padding-top: 59px;
         padding-bottom: 50px;
     }
-
-
-    /* voor area  */
-
     .voor-title {
         gap: 16px;
         flex-direction: column;
@@ -549,7 +436,6 @@ Xtra Small Screen - Small Mobile
         padding-left: 0;
         gap: 20px;
     }
-
     .voor-content p {
         font-size: 16px;
     }
@@ -564,10 +450,6 @@ Xtra Small Screen - Small Mobile
         height: 60px;
         padding: 5px;
     }
-
-
-    /* service area  */
-
     .service-list-wp {
         grid-template-columns: 1fr;
         margin-top: 35px;
@@ -588,7 +470,6 @@ Xtra Small Screen - Small Mobile
         font-size: 16px;
         max-width: 235px;
     }
-
     .single-service-top {
         min-height: fit-content;
         padding: 20px 25px;
@@ -625,9 +506,6 @@ Xtra Small Screen - Small Mobile
         height: 60px;
         padding: 15px;
     }
-
-   /* consultation  */
-
     .consultation-area {
         padding-top: 49px;
         padding-bottom: 70px;
@@ -646,14 +524,10 @@ Xtra Small Screen - Small Mobile
     .consultation-wrapper .icon {
         max-width: 60px;
     }
-
     .color-plate-ratangle {
         top: 110%;
         max-width: 35px;
     }
-
-    /* success story area  */
-
     .color-plate-img {
         max-width: 200px;
         display: none;
@@ -669,8 +543,6 @@ Xtra Small Screen - Small Mobile
         background-position: 38% 50%;
         background-size: cover;
     }
-    /* stat area  */
-
     .stats-area {
         padding-top: 96px;
         padding-bottom: 70px;
@@ -686,9 +558,6 @@ Xtra Small Screen - Small Mobile
         height: 70px;
         padding: 10px;
     }
-
-    /* footer  */
-
     .copyright-wrapper p.ms-auto {
         margin-left: 0 !important;
         margin-top: 10px;
@@ -700,7 +569,6 @@ Xtra Small Screen - Small Mobile
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
-
     .footer-site-logo {
         max-width: 120px;
     }
@@ -714,14 +582,12 @@ Xtra Small Screen - Small Mobile
     .footer-block {
         gap: 20px;
     }
-
     .footer-block ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         width: 100%;
     }
-
     .copyright-links {
         display: flex;
         align-items: start;
@@ -729,14 +595,12 @@ Xtra Small Screen - Small Mobile
         flex-direction: column;
         font-size: 14px;
     }
-
     .copyright-wrapper {
         flex-direction: column;
         align-items: start;
         gap: 10px;
         font-size: 16px;
     }
-
     .copyright-wrapper p:first-child {
         order: 3;
     }
@@ -752,14 +616,10 @@ Xtra Small Screen - Small Mobile
     .design-refferance {
         font-size: 16px;
     }
-
     .footer-ractangle {
         right: -35px;
         max-width: 40%;
     }
-
-     /* page 2  */
-
     .work-method-list {
         gap: 20px;
     }
@@ -777,8 +637,6 @@ Xtra Small Screen - Small Mobile
         width: 40px;
         height: 40px;
     }
-
-    /* provider area  */
     .provider-content {
         display: flex;
         flex-direction: column;
@@ -803,17 +661,14 @@ Xtra Small Screen - Small Mobile
     .provider-area .container {
         padding: 0;
     }
-
     .provider-title {
         align-items: start;
         gap: 17px;
         flex-direction: column;
     }
-
     .voor-title.gap-3 h4 {
         font-size: 30px;
     }
-
     .provider-title .icon {
         width: 60px;
         height: 60px;
@@ -825,9 +680,6 @@ Xtra Small Screen - Small Mobile
     .provider-content-list ul {
         gap: 6px;
     }
-
-    /* page isolatie */
-
     .energy-overview-area {
         padding-block: 86px;
         padding-bottom: 36px;
@@ -840,9 +692,6 @@ Xtra Small Screen - Small Mobile
         font-size: 18px;
         line-height: 1.5;
     }
-
-     /* measure area  */
-
     .header-cell {
         font-size: 14px;
         padding: 5px 6px;
@@ -851,7 +700,6 @@ Xtra Small Screen - Small Mobile
         padding: 8px 10px;
         font-size: 12px;
     }
-
     .meausure-area .service-wrapper-top {
         gap: 20px;
         flex-direction: row;
@@ -860,7 +708,6 @@ Xtra Small Screen - Small Mobile
     .meausure-area .service-top-content p {
         display: none;
     }
-
     .measure-content {
         padding-top: 10px;
     }
@@ -870,7 +717,6 @@ Xtra Small Screen - Small Mobile
     .measure-wrapper.gap-left {
         overflow: hidden;
     }
-
     .beschikbaar-list {
         grid-template-columns: repeat(1, 1fr);
         padding-top: 40px;
@@ -882,22 +728,16 @@ Xtra Small Screen - Small Mobile
         background-size: cover;
         background-position: center;
     }
-
-    /* content area  */
-
-     .section-title h2 {
+    .section-title h2 {
         font-size: 30px;
     }
-
     .content-card p {
         font-size: 16px;
     }
-
     .content-main-area {
         padding-top: 80px;
         padding-bottom: 40px;
     }
-
     .content-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -909,26 +749,22 @@ Xtra Small Screen - Small Mobile
     .content-card ul li {
         font-size: 16px;
     }
-
     .page-navigation ul a {
         font-size: 16px;
     }
     .page-navigation ul {
         gap: 10px 30px;
     }
-
     .provider-content-right h4 {
         font-size: 18px;
     }
     .provider-content-right p {
         font-size: 16px;
     }
-
     .image-details p {
         font-size: 16px;
         color: #fff;
     }
-
     .landing-page-wrapper h2 {
         font-size: 40px;
     }
@@ -937,8 +773,6 @@ Xtra Small Screen - Small Mobile
         flex-direction: column;
         align-items: start;
     }
-
-
     .landing-page-wp {
         display: flex;
         flex-direction: column;
@@ -957,35 +791,26 @@ Xtra Small Screen - Small Mobile
     .landing-block {
         margin-top: 0;
     }
-
     .subside-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
     }
-
-    /* faq page  */
-
     .faq-wrapper h4 {
         font-size: 30px;
     }
     .faq-content-card p {
         font-size: 18px;
     }
-
     .terms-privecy-wrapper p {
         font-size: 18px;
     }
-
     .terms-privecy-wrapper ul li {
         font-size: 18px;
     }
-
     .faq-header h5 {
         font-size: 18px;
     }
-    
-    /* New Code Here */
     .new-contact-area {
         padding: 24px 12px;
     }
@@ -1077,7 +902,6 @@ Xtra Small Screen - Small Mobile
     .header-cell {
         white-space: normal;
     }
-    /* New Code Here */
     .new-contact-button button {
         padding: 12px 20px;
         font-size: 22px;
