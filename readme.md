@@ -1,5 +1,32 @@
-# ZoIsoBack – Government Initiative Service Website
+# ZOISO – React + Tailwind
 
-ZoIsoBack is a modern and fully responsive government initiative website converted from PDF into clean, production-ready code. It is designed for public service programs, municipality campaigns, and energy-saving initiatives that aim to provide citizens with clear guidance, awareness, and support through an informative and user-friendly digital experience.
+React 18 · Vite · React Router · Tailwind CSS v4 · react-icons · Swiper
 
-Built with HTML, CSS, Bootstrap, JavaScript, jQuery, Swiper, and Slick Carousel, the website delivers smooth navigation, responsive layouts, and engaging content presentation across all devices. It features informational service sections, step-by-step guidance, interactive carousels, strong call-to-action areas, and a structured layout designed to improve accessibility, trust, and user engagement.
+## Run
+
+```bash
+npm install
+npm run dev      # development
+npm run build    # production build in dist/
+npm run preview  # preview the build
+```
+
+## Structure
+
+```
+src/
+  assets/        images (optimised) and fonts
+  components/
+    layout/      top bar, navbar, mobile menu, footer, scroll-to-top button
+    sections/    hero, CTA banner, service steps, sliders, ...
+    content/     building blocks for the text-heavy pages
+    ui/          container, links, buttons, accordion, form controls
+  data/          navigation, service steps, FAQ/privacy accordion content
+  hooks/         usePageTitle
+  pages/         one component per page
+```
+
+## Deploying
+
+The site uses clean URLs (e.g. `/isolatie`). Configure your host to serve
+`index.html` for every path (single-page-app fallback).
