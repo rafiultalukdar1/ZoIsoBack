@@ -11,7 +11,6 @@ large Screen - Others
     .navbar-wp ul a {
         font-size: 20px;
     }
-
 }
 
 /*
@@ -20,8 +19,6 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-
-    /* header  */
     .header-wrapper > img {
         max-width: 200px;
     }
@@ -88,8 +85,6 @@ Medium Screen - Others
     .new-contact-first {
         gap: 20px;
     }
-
-
 }
 
 /*
@@ -98,7 +93,6 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* header  */
     .header-wrapper > img {
         max-width: 200px;
     }
@@ -213,27 +207,6 @@ Small Screen - Tablate
     .copyright-wrapper p.ms-auto {
         margin-left: 0 !important;
     }
-    .work-method-list {
-        gap: 30px;
-    }
-    .provider-content {
-        display: flex;
-        flex-direction: column;
-    }
-    .provider-content-left {
-        width: 100%;
-    }
-    .provider-content-right {
-        width: 100%;
-        padding: 30px;
-    }
-    .provider-title h2 {
-        font-size: 40px;
-    }
-    .provider-area {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
     .energy-overview-area {
         padding-block: 86px;
         padding-bottom: 50px;
@@ -264,22 +237,6 @@ Small Screen - Tablate
         padding-top: 100px;
         padding-bottom: 60px;
     }
-    .page-navigation ul a {
-        font-size: 20px;
-        font-weight: 900;
-        font-family: var(--helvetica-condensed);
-        color: var(--primaryColor);
-    }
-    .provider-content-right h4 {
-        font-size: 20px;
-    }
-    .provider-content-right p {
-        font-size: 18px;
-    }
-    .image-details p {
-        font-size: 18px;
-        color: #fff;
-    }
     .landing-page-wrapper h2 {
         font-size: 70px;
     }
@@ -297,22 +254,6 @@ Small Screen - Tablate
         width: 80%;
         margin-left: auto;
         margin-top: 50px;
-    }
-    .faq-wrapper h4 {
-        font-size: 36px;
-    }
-    .faq-content-card p {
-        font-size: 20px;
-    }
-    .terms-privecy-wrapper p {
-        font-size: 20px;
-    }
-    .terms-privecy-wrapper ul li {
-        font-size: 20px;
-    }
-    .faq-header h5 {
-        font-size: 20px;
-        flex: 1;
     }
     .new-contact-area {
         padding: 40px 25px;
@@ -338,18 +279,6 @@ Small Screen - Tablate
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
-    .second-contact-box {
-        padding: 30px 60px;
-    }
-    .second-contact-checkbox-items {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .second-contact-checkbox-items img {
-        max-width: 200px;
-    }
-
-
-
 }
 
 /*
@@ -358,8 +287,6 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 767px) {
-    /* nav area  */
-
     .navbar-wp ul {
         gap: 10px 30px;
     }
@@ -613,72 +540,16 @@ Xtra Small Screen - Small Mobile
     .footer-block a {
         font-size: 16px;
     }
-    .design-refferance {
-        font-size: 16px;
-    }
     .footer-ractangle {
         right: -35px;
         max-width: 40%;
-    }
-    .work-method-list {
-        gap: 20px;
     }
     .service-area.work-method-area {
         padding-top: 37px;
         padding-bottom: 48px;
     }
-    .work-inner-wp h2 {
-        font-size: 18px;
-    }
-    .work-method-card {
-        padding: 15px;
-    }
-    .work-middle-area .work-inner-wp button {
-        width: 40px;
-        height: 40px;
-    }
-    .provider-content {
-        display: flex;
-        flex-direction: column;
-    }
-    .provider-content-left {
-        width: 100%;
-    }
-    .provider-content-right {
-        width: 100%;
-        padding: 20px;
-        gap: 30px;
-        display: flex;
-        flex-direction: column;
-    }
-    .provider-title h2 {
-        font-size: 30px;
-    }
-    .provider-area {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .provider-area .container {
-        padding: 0;
-    }
-    .provider-title {
-        align-items: start;
-        gap: 17px;
-        flex-direction: column;
-    }
     .voor-title.gap-3 h4 {
         font-size: 30px;
-    }
-    .provider-title .icon {
-        width: 60px;
-        height: 60px;
-        padding: 14px;
-    }
-    .provider-content-list ul li {
-        font-size: 17px;
-    }
-    .provider-content-list ul {
-        gap: 6px;
     }
     .energy-overview-area {
         padding-block: 86px;
@@ -728,9 +599,6 @@ Xtra Small Screen - Small Mobile
         background-size: cover;
         background-position: center;
     }
-    .section-title h2 {
-        font-size: 30px;
-    }
     .content-card p {
         font-size: 16px;
     }
@@ -748,22 +616,6 @@ Xtra Small Screen - Small Mobile
     }
     .content-card ul li {
         font-size: 16px;
-    }
-    .page-navigation ul a {
-        font-size: 16px;
-    }
-    .page-navigation ul {
-        gap: 10px 30px;
-    }
-    .provider-content-right h4 {
-        font-size: 18px;
-    }
-    .provider-content-right p {
-        font-size: 16px;
-    }
-    .image-details p {
-        font-size: 16px;
-        color: #fff;
     }
     .landing-page-wrapper h2 {
         font-size: 40px;
@@ -795,21 +647,6 @@ Xtra Small Screen - Small Mobile
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
-    }
-    .faq-wrapper h4 {
-        font-size: 30px;
-    }
-    .faq-content-card p {
-        font-size: 18px;
-    }
-    .terms-privecy-wrapper p {
-        font-size: 18px;
-    }
-    .terms-privecy-wrapper ul li {
-        font-size: 18px;
-    }
-    .faq-header h5 {
-        font-size: 18px;
     }
     .new-contact-area {
         padding: 24px 12px;
@@ -846,58 +683,14 @@ Xtra Small Screen - Small Mobile
         padding-top: 100px;
         padding-bottom: 45px;
     }
-    .second-contact-box {
-        padding: 20px 20px;
-        border-radius: 30px;
-        margin: 20px 0;
-    }
-    .second-contact-box a {
-        margin-top: 12px;
-        font-size: 18px;
-    }
-    .second-contact-input-items-name div {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .second-contact-input-items label {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .second-contact-input-items {
-        gap: 20px;
-    }
-    .second-contact-input h4 {
-        padding-top: 40px;
-        padding-bottom: 30px;
-    }
-   .second-contact-checkbox-items {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 30px;
-    }
-    .second-contact-checkbox-items img {
-        max-width: 200px;
-    }
-
-
 }
 
 
 
 @media screen and (max-width: 575px) {
-
     .footer-ractangle {
         right: -25px;
         max-width: 250px;
-    }
-    .work-inner-wp h2 {
-        font-size: 11px;
-    }
-    .work-inner-wp {
-        gap: 20px;
-        padding: 20px 15px;
-    }
-    .work-method-list {
-        max-width: 375px;
     }
     .header-cell {
         white-space: normal;
@@ -906,11 +699,5 @@ Xtra Small Screen - Small Mobile
         padding: 12px 20px;
         font-size: 22px;
         width: 100%;
-    }
-   .second-contact-checkbox-items {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .second-contact-checkbox-items img {
-        max-width: 200px;
     }
 }
